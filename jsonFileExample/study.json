@@ -1,0 +1,32 @@
+{
+    "uuid":null,
+    "name":null,
+    "gaussianCovariate":false,
+    "solutionTypeEnum":"POWER",
+    "participantLabel":null,
+    "viewTypeEnum":"GUIDED_MODE",
+    "confidenceIntervalDescriptions":null,
+    "powerCurveDescriptions":null,
+    "alphaList":[{"idx":0,"alphaValue":0.2}],
+    "betaScaleList":[{"idx":0,"value":1}],
+    "sigmaScaleList":[{"idx":0,"value":1}],
+    "relativeGroupSizeList":[{"idx":0,"value":1},{"idx":0,"value":1},{"idx":0,"value":1},{"idx":0,"value":1}],
+    "sampleSizeList":null,
+    "statisticalTestList":null,
+    "powerMethodList":null,
+    "quantileList":null,
+    "nominalPowerList":null,
+    "responseList":null,
+    "betweenParticipantFactorList":[
+        {   "idx":0,
+            "predictorName":"Gp1",
+            "categoryList":[{"idx":0,"category":"Gp1-Cate1"},{"idx":0,"category":"Gp1-Cate2"}]
+        },
+        {
+            "idx":0,
+            "predictorName":"Gp2",
+            "categoryList":[{"idx":0,"category":"Gp2-Cate1"},{"idx":0,"category":"Gp2-Cate2"}]
+        }
+    ],
+    "repeatedMeasuresTree":null,"clusteringTree":null,"hypothesis":null,"covariance":null,"matrixSet":null
+}
