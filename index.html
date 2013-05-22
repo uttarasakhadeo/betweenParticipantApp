@@ -24,12 +24,13 @@
 
         <div>
             <ul id="predictor-list" data-role="listview" data-inset="true" data-theme="b">
-                <li ng-repeat="item in bpFactorList">Predictor: {{item.predictorName}}
-                    <br>Category List:
+                <li ng-repeat="item in bpFactorList">Predictor: {{item.predictorName}} 
+					<br>Category List: {{ bpFactorList[$index].categoryList | json }}
+					<br>Add	Category:
                     <input type="text" placeholder="Enter name of Category" id="category_input" ng-model="$parent.newSubItem"/>
-                    <button id="add_sub_input" data-inline="true" ng-click="addSubItem($index)">Add</button>
-                    <!--<button id="delete_sub_input" data-inline="true">Delete</button>-->
-                </li>
+                    <button id="add_sub_input" data-inline="true" ng-click="addSubItem($index)">Add</button>					
+                    <!--<button id="delete_sub_input" data-inline="true">Delete</button>-->					
+                </li>				
             </ul>
         </div>
     </div>
